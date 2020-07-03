@@ -1,0 +1,16 @@
+{
+    "account.signup.success": "Cadastro efetuado com sucesso.",
+    "account.signup.email_exists": "Email já cadastrado.",
+    "account.signup.password_confirmation.any.required": "Confirmação de senha é obrigatório.",
+    "account.signup.password.string.empty": "O campo senha é obrigatório.",
+    "account.signup.email.any.required": "O campo email é obrigatório",
+    "account.signup.email.string.email": "O campo email deve ser válido",
+    "account.signup.password_confirmation.any.only": "O campo password_confirmation deve ser identico ao campo password",
+    "account.signin.invalid": "Credenciais inválidas.",
+    "account.signin.success": "Login efetuado com sucesso.",
+    "account.signin.password_confirmation.any.required": "Confirmação de senha é obrigatório.",
+    "account.signin.password.string.empty": "O campo senha é obrigatório.",
+    "account.signin.email.any.required": "O campo email é obrigatório",
+    "account.signin.email.string.email": "O campo email deve ser válido",
+    "account.signin.password_confirmation.any.only": "O campo password_confirmation deve ser identico ao campo password"
+}

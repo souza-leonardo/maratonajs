@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
+import { Redirect, NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { signOut } from "../../../actions/AccountActions";
 
@@ -19,7 +19,7 @@ const Layout = ({ children, signOut, account }) => {
       <nav className="navbar navbar-expand-lg bg-primary text-light">
         <div className="container d-flex w-100 justify-content-between">
           <div>
-            <span>BACK</span>
+            <NavLink to="/manage/links">BACK</NavLink>
           </div>
           <div className="text-center">
             <strong>Links</strong>

@@ -5,6 +5,7 @@ import {
   LINK_UPDATE,
   LINK_TO_REMOVE,
   LINK_REMOVE,
+  LINK_CLEAR,
 } from "../actions/LinkActions";
 
 const initialState = {
@@ -49,6 +50,9 @@ export default function (state = initialState, action) {
       );
 
       return { ...state, linkToRemove: null, links };
+    }
+    case LINK_CLEAR: {
+      return { ...state, link: null };
     }
     default:
       return state;
